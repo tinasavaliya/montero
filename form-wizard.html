@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./assets/css/stylesheet.css">
+	<title>Wizard Form</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="top-left">
+						<div class="top-main d-flex justify-content-between">
+							<div class="phone-details">
+								<ul class="d-flex">
+									<li>
+										<a href="tel:100 - 222 3455 ">
+											Phone: <span> 100 - 222 3455</span>
+										</a>
+									</li>
+									<li class="ms-3">
+										<a href="mailto:info@montero.com">Email : <span>info@montero.com</span></a>
+									</li>
+								</ul>
+							</div>
+							<div class="subscribe d-flex align-items-center">
+								<svg xmlns="http://www.w3.org/2000/svg" height="15px" width="15px" fill="#bbbbbb"
+									viewBox="0 0 512 512">
+									<path
+										d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z">
+									</path>
+								</svg>
+								<span class="ms-2">Subscribe Newsletter</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom padding-30 ">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="#">
+								<div class="header-logo">
+									<img src="./assets/images/montero-header-logo.png" alt="logo">
+								</div>
+							</a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link small px-3" aria-current="page" href="#">HOME </a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">AGENTS & AGENCIES</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle small px-3" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
+											PROPERTIES
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">BLOG</a></li>
+											<li><a class="dropdown-item" href="#">CONTACT US</a></li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+										</ul>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">BLOG</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">CONTACT US</a>
+									</li>
+									</li>
+
+								</ul>
+								<form class="d-flex ms-3" role="search">
+									<div class="social-icon">
+										<ul class="d-flex">
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg xmlns="http://www.w3.org/2000/svg" height="15px"
+															width="15px" fill="#bbbbbb" viewBox="0 0 320 512">
+															<path
+																d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+														</svg>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg xmlns="http://www.w3.org/2000/svg" height="15px"
+															width="15px" fill="#bbbbbb" viewBox="0 0 512 512">
+															<path
+																d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+														</svg>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg width="15px" height="15px" viewBox="0 0 16 16"
+															version="1.1" xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink" fill="#bbbbbb"
+															stroke="#bbbbbb">
+															<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+															<g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+																stroke-linejoin="round" stroke="#CCCCCC"
+																stroke-width="0.6719999999999999"></g>
+															<g id="SVGRepo_iconCarrier">
+																<path fill="#bbbbbb"
+																	d="M16 3.9h-2.8v-2.6h-0.6v2.6h-2.7v0.8h2.7v2.6h0.6v-2.6h2.8z">
+																</path>
+																<path fill="#bbbbbb"
+																	d="M6.9 9c-0.4-0.2-1.1-0.9-1.1-1.3s0.1-0.7 0.8-1.2c0.7-0.5 1.2-1.2 1.2-2.1 0-1.1-0.5-2.1-1.3-2.4h1.3l0.9-0.7c0 0-3.1 0-4.2 0-1.9 0-3.6 1.4-3.6 3.1s1.3 3 3.2 3c0.1 0 0.3 0 0.4 0-0.2 0.2-0.2 0.4-0.2 0.7 0 0.5 0.3 0.8 0.6 1.2-0.2 0-0.5 0-0.7 0-2.3 0-4.1 1.5-4.1 3s2 2.5 4.3 2.5c2.6 0 4.1-1.5 4.1-3-0.1-1.3-0.5-2-1.6-2.8zM4.7 6.9c-1.1 0-2.1-1.2-2.3-2.6s0.5-2.5 1.6-2.5c1.1 0 2.1 1.2 2.3 2.6s-0.5 2.6-1.6 2.5zM4.3 14.1c-1.6 0-2.8-1-2.8-2.2s1.4-2.2 3-2.2c0.4 0 0.7 0.1 1 0.2 0.9 0.6 1.5 0.9 1.7 1.6 0 0.1 0.1 0.3 0.1 0.4 0 1.2-0.8 2.2-3 2.2z">
+																</path>
+															</g>
+														</svg>
+													</a>
+
+												</div>
+
+											</li>
+
+										</ul>
+
+									</div>
+									<!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+								</form>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- Contact-Twelve -->
+		<div class="property-wrapper float-start w-100">
+			<div class="container">
+				<div class="property-listing padding-50 d-flex align-items-center justify-content-between">
+					<div class="left-listing">
+						<h3 class="font-50">Properties</h3>
+						<p class="font-13">OUR BEST PROPERTIES LISTING</p>
+					</div>
+					<div class="right-listing">
+						<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+							<ol class="breadcrumb font-11">
+								<li class="breadcrumb-item font-11"><a href="#">Home</a></li>
+								<li class="breadcrumb-item active " aria-current="page">PROPERTY</li>
+							</ol>
+						</nav>
+						<!-- <ul class="d-flex font-11">
+							<li>HOME</li>
+							<li>PROPERTY</li>
+						</ul> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Property area -->
+		<div class="contact-location-wrapper float-start w-100 padding-80" style="background-color: #fafafa;">
+			<div class="container">
+				<div class="location-touch text-center">
+					<p class="font-12" style="color:#999999;">CHECK OUR LOCATION</p>
+					<h3 class="font-35"> <span class="fw-light">KEEP IN </span> TOUCH</h3>
+				</div>
+				<div class="lacation">
+					<div class="montero-left-address order-1">
+						<p class="font-12 padding-30" style="color: #d5d5d5;">KEEP IN TOUCH</p>
+						<h3 class="font-20">Montero Address</h3>
+						<h5 class="font-12" style="color: #d2d2d2;">AGENT PROPERTY</h5>
+						<h4 class="font-13" style="color: #333333;">MONTERO PROPERTY</h4>
+						<h6 class="py-2 font-12 fw-normal" style="color: #333333;">142 West newton, NY 19088, United
+							States</h6>
+						<div class="bottom-history">
+							<div class="row">
+								<div class="col-4">
+									<ul class="font-13" style="color: #d5d5d5;">
+										<li>Call: </li>
+										<li>Email: </li>
+										<li>Skype: </li>
+										<li>Facebook: </li>
+										<li>Twitter:</li>
+									</ul>
+								</div>
+								<div class="col-8">
+									<ul class="font-13" style="color: #333333;">
+										<li>
+											<a href="tel:+7 (100) 2234 999" style="color: #333333;">+7 (100) 2234
+												999</a>
+										</li>
+										<li><a href="malito:info@montero.com"
+												style="color:#ea7a27;">info@montero.com</a>
+										</li>
+										<li>Montero.Property</li>
+										<li>Montero.facebook </li>
+										<li>@Montero.Property</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="chartonsiviile-main">
+						<div class="location-img">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58665.802276539536!2d72.60434853046765!3d23.220783212209067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b987c6d6809%3A0xf86f06a7873e0391!2sGandhinagar%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1692159189372!5m2!1sen!2sin"
+								width="1024" height="470" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- send us an email -->
+		<div class="send-email-wrapper float-start w-100">
+			<div class="container">
+				<div class="send-banner ">
+					<div class="tittle-main d-flex align-items-center justify-content-between">
+						<div class="send-left">
+							<h3 class="font-35 text-white "> <span style="font-weight: 300;">SEND US AN </span> EMAIL
+							</h3>
+							<p class="font-14 text-white">KEEP IN TOUCH</p>
+						</div>
+						<div class="send-right">
+							<p class="font-12 text-white">SEND AN EMAIL</p>
+						</div>
+					</div>
+					<div class="contact-us text-end">
+						<h3 class="font-75">Contact us</h3>
+					</div>
+					<div class="tree-girl wizard">
+						<div class="wizard-send-form bg-white">
+							<!-- <form method="get" id="wizardForm" validation>
+								<div class="row">
+									<div class="col-lg-4">
+										<label for="user">
+											Your Name
+										</label>
+										<input type="text" name="username" id="usernames" placeholder="Username"
+											class="font-15 ps-3 w-100 sorting-btn form-control">
+										<h5 id="usercheck" style="color: red;">
+											Username is missing
+										</h5>
+									</div>
+									<div class="col-lg-4">
+										<div class="form-group">
+											<label for="user">
+												Email Address
+											</label>
+											<input type="email" name="email" id="email" placeholder="email address" required
+												class="font-15 ps-3 w-100 sorting-btn form-control">
+											<small id="emailvalid" class="form-text text-muted invalid-feedback">
+												Your email must be a valid email
+											</small>
+										</div>
+									</div>
+									<div class="col-lg-4">
+										<label for="user">
+											Your Phone
+										</label>
+										<input type="text" placeholder="+100" id="phone" name="phone"
+											class="font-15 w-100 ps-3 sorting-btn form-control">
+										<h5 id="usercheckk" style="color: red;">
+											your phone no is missing
+										</h5>
+									</div>
+									<div class="col-12 mt-3">
+										<textarea name="message" id="msg" cols="30" rows="10"
+											class="font-15 w-100 ps-3 sorting-btn form-control" required>Message</textarea>
+									</div>
+									<div class="col-lg-6 mt-3 d-flex align-items-center">
+										<img src="./assets/images/montero-header-logo.png" alt="logo">
+									</div>
+									<div class="col-lg-6 mt-3">
+										<div class="property-gradient-btn">
+											<input type="submit" id="submitbtn" placeholder="SEND MESSAGE" class="btn font-16"
+												style="color: #333333;">
+										</div>
+									</div>
+								</div>
+							</form> -->
+						</div>
+						<div class="wizard wizard-send-form bg-white">
+							<form id="wizardForm">
+								<section class="wizard-step step1">
+									<div class="row">
+										<div class="col-lg-6">
+											<label for="user">
+												Your Name
+											</label>
+											<input type="text" name="field1" placeholder="Username"
+												class="font-15 ps-3 w-100 sorting-btn form-control">
+										</div>
+										<div class="col-lg-6">
+											<label for="user">
+												Email Address
+											</label>
+											<input type="email" name="email" id="email" placeholder="email address"
+												required class="font-15 ps-3 w-100 sorting-btn form-control">
+
+											<button type="button" class="next-step">Next</button>
+										</div>
+									</div>
+								</section>
+								<section class="wizard-step step3">
+									<div class="col-lg-12">
+										<label for="phone">
+											Your Phone
+										</label>
+										<input type="text" placeholder="+100" id="phone" name="phone"
+											class="font-15 w-100 ps-3 sorting-btn form-control">
+									</div>
+									<div class="col-lg-12 mb-3">
+										<textarea name="message" id="msg" cols="30" rows="10"
+											class="font-15 w-100 ps-3 sorting-btn form-control mb-3"
+											required>Message</textarea>
+										<button type="button" class="prev-step">Previous</button>
+										<button type="button" class="next-step bg-gradient">sumit</button>
+									</div>
+								</section>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<footer class="footer float-start w-100">
+		<div class="about-footer">
+			<div class="about-dolor max-1200">
+				<div class="row max-1200">
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18">ABOUT US</h2>
+							<p class="font-14  padding-30" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+								Lorem
+								ipsum
+								dolor sit
+								amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+								et
+								dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan
+								lacus
+								vel facilisis. </p>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400">
+								Consectetuer adipiscing
+								elit, sed diam nonummy nibh euismod tincidunt </p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18">LATEST PROPERTIES</h2>
+							<div class="family-images d-flex padding-30">
+								<img src="./assets/images/footer-property-one.png" alt="family"
+									class="object-fit-contain">
+								<div class="latest-btn">
+									<h3 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">Family House
+										21 Sqt</h3>
+									<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+										142 West newton, NY
+										19088, United States</p>
+									<button class="font-14">$7.500,00</button>
+								</div>
+							</div>
+							<div class="footer-ipsum d-flex padding-20">
+								<img src="./assets/images/footer-property-one.png" alt="family"
+									class="object-fit-contain">
+								<div class="latest-btn">
+									<h3 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">Family House
+										21 Sqt</h3>
+									<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+										142 West newton, NY
+										19088, United States</p>
+									<button class="font-14">$7.500,00</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2  col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18 padding-30">CONTACT US</h2>
+							<h4 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">MONTERO PROPERTY
+							</h4>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">142 West
+								newton, NY
+								19088
+								United States</p>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">+100
+								(234) 222 3333
+								info@montero.com</p>
+						</div>
+					</div>
+					<div class="col-lg-2  col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18 padding-30">USEFUL LINKS</h2>
+							<ul class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+								<li>All properties</li>
+								<li>FAQ’S</li>
+								<li>Terms &amp; Conditions</li>
+								<li>Sign up</li>
+								<li>Articles</li>
+								<li>Popular tags</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom float-left w-100 bg-white max-1200 padding-30 text-center">
+			<div class="arrow-icon">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" height="10px" width="10px" fill="#fff"
+						viewBox="0 0 448 512">
+						<path
+							d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="footer-left-logo">
+						<img src="./assets/images/montero-header-logo.png" alt="footer-logo">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="footer-right-pera text-end">
+						<h4 class="font-14" style="color: #333333;">© 2016 Montero Property.</h4>
+						<p class="font-12" style="font-weight: 400;"> Trademarks are the property of their
+							respective owners.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<script type="text/javascript" src="./assets/js/jquery-1.11.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+		</script>
+	<script type="text/javascript" src="./assets/js/script.js"></script>
+	<script>
+		$(document).ready(function () {
+			function navSidebar() {
+				var $sideElement = $('#navbarSupportedContent');
+				var $sideParent = $('header');
+				var $swiper = $('.wrapper');
+				var $body = $('body');
+				$sideElement.on('hidden.bs.collapse', function () {
+					$sideParent.find('.sidebar-overlay').remove();
+					$body.removeClass('scroll-hide');
+				});
+				$sideElement.on('show.bs.collapse', function () {
+					$sideParent.append('<div class="sidebar-overlay" />');
+					$body.addClass('scroll-hide');
+				});
+				$sideParent.on("click", ".sidebar-overlay", function () {
+					$sideElement.collapse('hide');
+				});
+			}
+			navSidebar();
+
+
+			// Validate Username
+			$("#usercheck").hide();
+			let usernameError = true;
+			$("#usernames").keyup(function () {
+				validateUsername();
+			});
+
+			function validateUsername() {
+				let usernameValue = $("#usernames").val();
+				if (usernameValue.length == "") {
+					$("#usercheck").show();
+					usernameError = false;
+					return false;
+				} else if (usernameValue.length < 3 || usernameValue.length > 10) {
+					$("#usercheck").show();
+					$("#usercheck").html("**length of username must be between 3 and 10");
+					usernameError = false;
+					return false;
+				} else {
+					$("#usercheck").hide();
+				}
+			}
+
+			// Validate Email
+			const email = document.getElementById("email");
+			email.addEventListener("blur", () => {
+				let regex =
+					/^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
+				let s = email.value;
+				if (regex.test(s)) {
+					email.classList.remove("is-invalid");
+					emailError = true;
+				} else {
+					email.classList.add("is-invalid");
+					emailError = false;
+				}
+			});
+			// Validate phone
+			$("#usercheckk").hide();
+			let phoneError = true;
+			$("#phone").keyup(function () {
+				validatephone();
+			});
+
+			function validatephone() {
+				let phoneValue = $("#phone").val();
+				if (phoneValue.length == "") {
+					$("#usercheckk").show();
+					usernameError = false;
+					return false;
+				} else if (phoneValue.length = 10) {
+					$("#usercheckk").show();
+					$("#usercheckk").html("**length of phone must be 10");
+					phoneError = false;
+					return false;
+				} else {
+					$("#usercheckk").hide();
+				}
+			}
+			// Submit button
+			$("#submitbtn").click(function () {
+				validateUsername();
+				validatePassword();
+				validateConfirmPassword();
+				validateEmail();
+				if (
+					usernameError == true &&
+					passwordError == true &&
+					confirmPasswordError == true &&
+					emailError == true
+				) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+			const steps = $('.wizard-step');
+			let currentStep = 0;
+
+			function updateProgressBar() {
+				const progressBar = $('.progress-bar');
+				const progress = ((currentStep + 1) / steps.length) * 100;
+				progressBar.css('width', `${progress}%`);
+			}
+
+			function showStep(stepIndex) {
+				steps.hide();
+				steps.eq(stepIndex).show();
+				currentStep = stepIndex;
+				updateProgressBar();
+			}
+
+			$('.next-step').click(function () {
+				if (currentStep < steps.length - 1) {
+					showStep(currentStep + 1);
+				}
+			});
+
+			$('.prev-step').click(function () {
+				if (currentStep > 0) {
+					showStep(currentStep - 1);
+				}
+			});
+
+			$('#wizardForm').submit(function (e) {
+				e.preventDefault();
+				// Here you can add your form submission logic
+				alert('Form submitted successfully!');
+			});
+
+			showStep(currentStep); // Show the first step initially
+		});	
+	</script>
+</body>
+
+</html>

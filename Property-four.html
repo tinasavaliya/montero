@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./assets/css/stylesheet.css">
+	<title>Property-News-four</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="top-left">
+						<div class="top-main d-flex justify-content-between">
+							<div class="phone-details">
+								<ul class="d-flex">
+									<li>
+										<a href="tel:100 - 222 3455 ">
+											Phone: <span> 100 - 222 3455</span>
+										</a>
+									</li>
+									<li class="ms-3">
+										<a href="mailto:info@montero.com">Email : <span>info@montero.com</span></a>
+									</li>
+								</ul>
+							</div>
+							<div class="subscribe d-flex align-items-center">
+								<svg xmlns="http://www.w3.org/2000/svg" height="15px" width="15px" fill="#bbbbbb"
+									viewBox="0 0 512 512">
+									<path
+										d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z">
+									</path>
+								</svg>
+								<span class="ms-2">Subscribe Newsletter</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom padding-30 ">
+				<div class="container">
+					<nav class="navbar navbar-expand-lg">
+						<div class="container-fluid">
+							<a class="navbar-brand" href="#">
+								<div class="header-logo">
+									<img src="./assets/images/montero-header-logo.png" alt="logo">
+								</div>
+							</a>
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+									<li class="nav-item">
+										<a class="nav-link small px-3" aria-current="page" href="#">HOME </a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">AGENTS & AGENCIES</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle small px-3" href="#" role="button"
+											data-bs-toggle="dropdown" aria-expanded="false">
+											PROPERTIES
+										</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">BLOG</a></li>
+											<li><a class="dropdown-item" href="#">CONTACT US</a></li>
+											<li>
+												<hr class="dropdown-divider">
+											</li>
+										</ul>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">BLOG</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link small px-3" href="#">CONTACT US</a>
+									</li>
+									</li>
+
+								</ul>
+								<form class="d-flex ms-3" role="search">
+									<div class="social-icon">
+										<ul class="d-flex">
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg xmlns="http://www.w3.org/2000/svg" height="15px"
+															width="15px" fill="#bbbbbb" viewBox="0 0 320 512">
+															<path
+																d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+														</svg>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg xmlns="http://www.w3.org/2000/svg" height="15px"
+															width="15px" fill="#bbbbbb" viewBox="0 0 512 512">
+															<path
+																d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+														</svg>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="facebook-icon">
+													<a href="#">
+														<svg width="15px" height="15px" viewBox="0 0 16 16"
+															version="1.1" xmlns="http://www.w3.org/2000/svg"
+															xmlns:xlink="http://www.w3.org/1999/xlink" fill="#bbbbbb"
+															stroke="#bbbbbb">
+															<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+															<g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+																stroke-linejoin="round" stroke="#CCCCCC"
+																stroke-width="0.6719999999999999"></g>
+															<g id="SVGRepo_iconCarrier">
+																<path fill="#bbbbbb"
+																	d="M16 3.9h-2.8v-2.6h-0.6v2.6h-2.7v0.8h2.7v2.6h0.6v-2.6h2.8z">
+																</path>
+																<path fill="#bbbbbb"
+																	d="M6.9 9c-0.4-0.2-1.1-0.9-1.1-1.3s0.1-0.7 0.8-1.2c0.7-0.5 1.2-1.2 1.2-2.1 0-1.1-0.5-2.1-1.3-2.4h1.3l0.9-0.7c0 0-3.1 0-4.2 0-1.9 0-3.6 1.4-3.6 3.1s1.3 3 3.2 3c0.1 0 0.3 0 0.4 0-0.2 0.2-0.2 0.4-0.2 0.7 0 0.5 0.3 0.8 0.6 1.2-0.2 0-0.5 0-0.7 0-2.3 0-4.1 1.5-4.1 3s2 2.5 4.3 2.5c2.6 0 4.1-1.5 4.1-3-0.1-1.3-0.5-2-1.6-2.8zM4.7 6.9c-1.1 0-2.1-1.2-2.3-2.6s0.5-2.5 1.6-2.5c1.1 0 2.1 1.2 2.3 2.6s-0.5 2.6-1.6 2.5zM4.3 14.1c-1.6 0-2.8-1-2.8-2.2s1.4-2.2 3-2.2c0.4 0 0.7 0.1 1 0.2 0.9 0.6 1.5 0.9 1.7 1.6 0 0.1 0.1 0.3 0.1 0.4 0 1.2-0.8 2.2-3 2.2z">
+																</path>
+															</g>
+														</svg>
+													</a>
+
+												</div>
+
+											</li>
+
+										</ul>
+
+									</div>
+									<!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+								</form>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- Property-News-four -->
+		<div class="property-wrapper float-start w-100">
+			<div class="container">
+				<div class="property-listing padding-50 d-flex align-items-center justify-content-between">
+					<div class="left-listing">
+						<h3 class="font-50">Properties</h3>
+						<p class="font-13">OUR BEST PROPERTIES LISTING</p>
+					</div>
+					<div class="right-listing">
+						<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+							<ol class="breadcrumb font-11">
+								<li class="breadcrumb-item font-11"><a href="#">Home</a></li>
+								<li class="breadcrumb-item active " aria-current="page">PROPERTY</li>
+							</ol>
+						</nav>
+						<!-- <ul class="d-flex font-11">
+							<li>HOME</li>
+							<li>PROPERTY</li>
+						</ul> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Property area -->
+		<div class="property-listing-wrapper float-start w-100 padding-80">
+			<div class="container">
+				<div class="listing-main d-flex padding-30">
+				</div>
+				<div class="row">
+					<div class="col-xl-9 col-lg-12">
+						<div class="left-list padding-30">
+							<ul class="d-flex justify-content-between">
+								<li>
+									<h3 class="font-22">Property Listing</h3>
+									<p class="text-green font-12 py-2">1240 SEARCH RESULT</p>
+								</li>
+								<li>
+									<div class="sorting">
+										<select name="power" id="power" width="300" class="sorting-btn "
+											style="width: 300px">
+											<option class="font-14" style="color: #333333; line-height: 20px;">Sort By
+											</option>
+											<option name="TLX">Sort By</option>
+											<option name="TLX">Stockholm</option>
+											<option name="TLX"> Stockholm
+											</option>
+											<option name="TLX">Helsinki</option>
+											<option name="TLX">Madrid</option>
+											<option name="FLX">Rome</option>
+											<option name="FLX">Berlin</option>
+										</select>
+									</div>
+								</li>
+							</ul>
+							<div class="blank-row"></div>
+						</div>
+
+						<div class="paris-many-images">
+							<div class="property-fact" style="position: relative;">
+								<div class="row">
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-one.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-two.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-three.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-four.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-five.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-six.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-seven.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="area-main">
+										<div class="area d-flex">
+											<div class="nature-img">
+												<img src="./assets/images/bitmap-eight.png" alt="fact">
+											</div>
+											<div class="wilda">
+												<div class="border-img">
+													<img src="./assets/images/montero_one_filter_round.png" alt="round">
+												</div>
+												<div class="row padding-50 ps-5 botton-grey">
+													<div class="col-8">
+														<ul>
+															<li>
+																<h3 class="font-20">Wilda Apartment</h3>
+															</li>
+															<li>
+																<svg xmlns="http://www.w3.org/2000/svg" height="10px"
+																	width="10px" fill="#ff8710" viewBox="0 0 384 512">
+																	<path
+																		d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z">
+																	</path>
+																</svg>
+																<span class="font-12 text-green"> 124 ALASCA
+																	PARK, SAN DIEGO UNITED STATES</span>
+															</li>
+														</ul>
+													</div>
+													<div class="col-4">
+														<div class="blank-wilda">
+															<ul>
+																<li>
+																	<h3 class="font-24">1.700 <span
+																			class="fw-normal">USD</span></h3>
+																</li>
+																<li class="font-12 ">PRICE PER MONTH</li>
+															</ul>
+														</div>
+
+													</div>
+												</div>
+												<div class="inner-area d-flex ps-5">
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+															</li>
+															<li>
+																<h3 class="font-25">1k+</h3>
+																<span class="font-13" style="color: #e0e0e0;">AREA,
+																	SQ</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">05</h3>
+																<span class="font-13" style="color: #e0e0e0;">BEDROOMS
+																</span>
+															</li>
+														</ul>
+													</div>
+													<div class="composit-path pe-5">
+														<ul class="d-flex align-items-center">
+															<li class="pe-2">
+																<div class="area-image">
+																	<img src="./assets/images/small-composit-bath.png"
+																		alt="path">
+																</div>
+
+															</li>
+															<li>
+																<h3 class="font-25">02</h3>
+																<span class="font-13"
+																	style="color: #e0e0e0;">BATHROOMS</span>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="digits">
+								<ul class="font-14 d-flex align-items-end justify-content-center padding-30">
+									<li>01</li>
+									<li>02</li>
+									<li>03</li>
+									<li>04</li>
+									<li>05</li>
+									<li>....</li>
+									<li>20</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-12 padding-30">
+						<div class="d-flex text-end">
+							<div class="right-list">
+								<h3 class="font-22">Search Property</h3>
+								<p class="text-green font-12 text-start py-2">FIND YOUR HOUSE</p>
+							</div>
+						</div>
+						<div class="blank-row w-270"></div>
+						<div class="search-right-part">
+							<ul>
+								<li>
+									<div class="sorting">
+										<select name="power" id="power" width="300" class="sorting-btn "
+											style="width: 300px">
+											<option class="font-14" style="color: #333333; line-height: 20px;">status
+											</option>
+											<option name="TLX">Sort By</option>
+											<option name="TLX">Stockholm</option>
+											<option name="TLX"> Stockholm
+											</option>
+											<option name="TLX">Helsinki</option>
+											<option name="TLX">Madrid</option>
+											<option name="FLX">Rome</option>
+											<option name="FLX">Berlin</option>
+										</select>
+									</div>
+								</li>
+								<li>
+									<div class="sorting">
+										<select name="power" id="power" width="300" class="sorting-btn "
+											style="width: 300px">
+											<option class="font-14" style="color: #333333; line-height: 20px;">Type
+											</option>
+											<option name="TLX">LOw Income</option>
+											<option name="TLX"> HIgh-Income</option>
+										</select>
+									</div>
+								</li>
+								<li>
+									<div class="sorting">
+										<select name="power" id="power" width="300" class="sorting-btn "
+											style="width: 300px">
+											<option class="font-14" style="color: #333333; line-height: 20px;">Country
+											</option>
+											<option name="TLX">India</option>
+											<option name="TLX">Netherland</option>
+											<option name="TLX"> America
+											</option>
+											<option name="TLX">Lodon</option>
+											<option name="TLX">Swezarland</option>
+										</select>
+									</div>
+								</li>
+								<li>
+									<div class="sorting">
+										<select name="power" id="power" width="300" class="sorting-btn "
+											style="width: 300px">
+											<option class="font-14" style="color: #333333; line-height: 20px;">City
+											</option>
+											<option name="TLX">Surat</option>
+											<option name="TLX">Mumbai</option>
+											<option name="TLX"> Dubai
+											</option>
+											<option name="TLX">Kolkata</option>
+											<option name="TLX">Goa</option>
+											<option name="FLX">Navsari</option>
+
+										</select>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="range-slider d-flex">
+							<input type="range" class="form-range" step="1" min="0" max="10" value="0" id="slider1">
+							<input type="range" class="form-range" step="1" min="0" max="10" value="10" id="slider2">
+
+						</div>
+						<ul class="d-flex align-items-center justify-content-between font-12 text-green">
+							<li>$1</li>
+							<li>$1000.000</li>
+						</ul>
+						<div class="property-gradient-btn text-center">
+							<a href="#" class="font-16" style="color: #333333;">SEARCH PROPERTY</a>
+						</div>
+						<div class="right-list">
+							<h3 class="font-22">Recent Property</h3>
+							<p class="text-green font-12 text-start py-2">Search YOUR HOUSE</p>
+						</div>
+						<div class="family-images d-flex align-items-start padding-30">
+							<img src="./assets/images/montero-two-recent-peroperty.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="footer-ipsum d-flex align-items-start padding-20">
+							<img src="./assets/images/montero-two-recent-peroperty-two.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="family-images d-flex align-items-start padding-30">
+							<img src="./assets/images/montero-two-recent-peroperty-three.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="footer-ipsum d-flex align-items-start padding-20">
+							<img src="./assets/images/montero-two-recent-peroperty-four.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="family-images d-flex align-items-start padding-30">
+							<img src="./assets/images/montero-two-recent-peroperty-five.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="footer-ipsum d-flex align-items-start padding-20">
+							<img src="./assets/images/montero-two-recent-peroperty-six.png" alt="family"
+								class="object-fit-contain">
+							<div class="latest-btn">
+								<h3 class="font-14 py-2" style="color: #282828; line-height: 19px;">Family House
+									21 Sqt</h3>
+								<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+									142 West newton, NY
+									19088, United States</p>
+								<button class="font-14">$7.500,00</button>
+							</div>
+						</div>
+						<div class="right-list padding-30">
+							<h3 class="font-22">Categories Property</h3>
+							<p class="text-green font-12 text-start py-2">Search YOUR HOUSE</p>
+						</div>
+						<div class="blank-row w-270 m-0"></div>
+						<div class="aprt-main">
+							<ul class="font-16 text-black">
+								<li> <span class="text-green">> </span> Apartment </li>
+								<li><span class="text-green">> </span>Cottage</li>
+								<li><span class="text-green">> </span>Condominium</li>
+								<li><span class="text-green">> </span>Flat</li>
+								<li><span class="text-green">> </span>Family House</li>
+								<li><span class="text-green">> </span>Home Single</li>
+								<li><span class="text-green">> </span>House</li>
+							</ul>
+						</div>
+						<div class="right-list padding-30">
+							<h3 class="font-22">Our Guide</h3>
+							<p class="text-green font-12 text-start py-2">HOW TO BOOKING</p>
+						</div>
+						<div class="right-recent-logo">
+							<img src="./assets/images/montero-recent-right-logo.png" alt="right-recent-logo">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+	</div>
+	</div>
+	</div>
+
+	<!-- footer -->
+	<footer class="footer float-start w-100">
+		<div class="about-footer">
+			<div class="about-dolor max-1200">
+				<div class="row max-1200">
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18">ABOUT US</h2>
+							<p class="font-14  padding-30" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+								Lorem
+								ipsum
+								dolor sit
+								amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+								et
+								dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+								maecenas accumsan
+								lacus
+								vel facilisis. </p>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400">
+								Consectetuer adipiscing
+								elit, sed diam nonummy nibh euismod tincidunt </p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18">LATEST PROPERTIES</h2>
+							<div class="family-images d-flex padding-30">
+								<img src="./assets/images/footer-property-one.png" alt="family"
+									class="object-fit-contain">
+								<div class="latest-btn">
+									<h3 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">Family House
+										21 Sqt</h3>
+									<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+										142 West newton, NY
+										19088, United States</p>
+									<button class="font-14">$7.500,00</button>
+								</div>
+							</div>
+							<div class="footer-ipsum d-flex padding-20">
+								<img src="./assets/images/footer-property-one.png" alt="family"
+									class="object-fit-contain">
+								<div class="latest-btn">
+									<h3 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">Family House
+										21 Sqt</h3>
+									<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+										142 West newton, NY
+										19088, United States</p>
+									<button class="font-14">$7.500,00</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="col-lg-2  col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18 padding-30">CONTACT US</h2>
+							<h4 class="font-14 py-2" style="color: #cccccc; line-height: 19px;">MONTERO PROPERTY
+							</h4>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">142 West
+								newton, NY
+								19088
+								United States</p>
+							<p class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">+100
+								(234) 222 3333
+								info@montero.com</p>
+						</div>
+					</div>
+					<div class="col-lg-2  col-md-6 col-12">
+						<div class="footer-ipsum">
+							<h2 class="font-18 padding-30">USEFUL LINKS</h2>
+							<ul class="font-14" style="color: #cccccc; line-height: 19px; font-weight: 400;">
+								<li>All properties</li>
+								<li>FAQ’S</li>
+								<li>Terms &amp; Conditions</li>
+								<li>Sign up</li>
+								<li>Articles</li>
+								<li>Popular tags</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom float-left w-100 bg-white max-1200 padding-30 text-center">
+			<div class="arrow-icon">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" height="10px" width="10px" fill="#fff"
+						viewBox="0 0 448 512">
+						<path
+							d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+					<div class="footer-left-logo">
+						<img src="./assets/images/montero-header-logo.png" alt="footer-logo">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12">
+					<div class="footer-right-pera text-end">
+						<h4 class="font-14" style="color: #333333;">© 2016 Montero Property.</h4>
+						<p class="font-12" style="font-weight: 400;"> Trademarks are the property of their
+							respective owners.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+		</script>
+	<script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
